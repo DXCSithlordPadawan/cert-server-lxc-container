@@ -1,6 +1,8 @@
 # cert-server-lxc-container
 Certificate Server on a Proxmox LXC Container
 
+apt install python3.11-venv   required on host to start with
+
 ## 📋 **Complete Script Set**
 
 ### 1. **Enhanced Certificate Server Installation Script (cert-server-install.sh)** 
