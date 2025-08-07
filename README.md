@@ -3,7 +3,7 @@ Certificate Server on a Proxmox LXC Container
 
 ## 📋 **Complete Script Set**
 
-### 1. **Enhanced Certificate Server Installation Script** 
+### 1. **Enhanced Certificate Server Installation Script (cert-server-install.sh)** 
 - Includes all certificate server functionality with modern enhancements
 - Full VLAN support for network segmentation
 
