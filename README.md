@@ -86,6 +86,5 @@ curl -k -X POST https://your-server:8443/api/submit_csr \
 - **Real-time status monitoring**
 - **Disk space and service monitoring**
 
-The scripts follow the tteck methodology you referenced, with proper error handling, colored output, and container-friendly installation. They're production-ready and include all the enhanced features you requested, plus additional enterprise-grade capabilities for reliability and security.
+The scripts follow the tteck methodology you referenced, with proper error handling, colored output, and container-friendly installation. They're production-ready and include enhanced features requested, plus additional enterprise-grade capabilities for reliability and security.
 
-Would you like me to explain any specific part of the implementation or add any additional features?
