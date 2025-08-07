@@ -1,12 +1,9 @@
 # cert-server-lxc-container
 Certificate Server on a Proxmox LXC Container
 
-Perfect! I've created a comprehensive set of scripts that enhance the certificate server functionality with all the features you requested. Here's a summary of what I've delivered:
-
 ## 📋 **Complete Script Set**
 
 ### 1. **Enhanced Certificate Server Installation Script** 
-- Based on the Grafana installation methodology you provided
 - Includes all certificate server functionality with modern enhancements
 - Full VLAN support for network segmentation
 
