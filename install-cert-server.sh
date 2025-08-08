@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
 # Enhanced Certificate Server Installation Script
+# Author Iain Reid
 # Based on community-scripts methodology with extended functionality
 # Copyright (c) 2025
 # License: MIT
@@ -253,7 +254,7 @@ x509_extensions     = v3_ca
 prompt              = no
 
 [ req_distinguished_name ]
-countryName                     = US
+countryName                     = GB
 stateOrProvinceName             = State
 localityName                    = City
 0.organizationName              = Organization
@@ -293,8 +294,8 @@ extendedKeyUsage = serverAuth
 subjectAltName = @alt_names
 
 [ alt_names ]
-DNS.1 = aip.dxc.com
-DNS.2 = *.aip.dxc.com
+DNS.1 = localhost
+DNS.2 = *.local
 IP.1 = 127.0.0.1
 IP.2 = ::1
 
@@ -1913,7 +1914,7 @@ extendedKeyUsage = serverAuth
 subjectAltName = @alt_names
 
 [alt_names]
-DNS.1 = aip.dxc.com
+DNS.1 = localhost
 DNS.2 = $(hostname)
 DNS.3 = $(hostname -f)
 DNS.4 = *.local
