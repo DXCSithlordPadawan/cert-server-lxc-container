@@ -1,0 +1,31 @@
+[ req ]
+
+distinguished_name=req_distinguished_name
+req_extensions=v3_req
+
+[ req_distinguished_name ]
+countryName = Country Name 
+countryName_default = GB
+stateOrProvinceName = State name
+stateOrProvinceName_default = Hampshire
+localityName = City
+localityName_default = Farnborough
+organizationUnitName = OU Name
+organizationUnitName_default = EntServ D S
+commonName = Common Name
+commonName_default = cert-server.aip.dxc.com
+
+[ v3_req ]
+#authorityKeyIdentifier=keyid:always,issuer:always
+basicConstraints=CA:FALSE
+keyUsage=digitalSignature, nonRepudiation, keyEncipherment, dataEncipherment
+extendedKeyUsage=serverAuth
+subjectAltName = @alt_names
+
+[ alt_names ]
+DNS.1=bastion.aip
+DNS.2=ibs.aip.dxc.com
+DNS.3=quay.aip.dxc.com
+DNS.4=bastion.aip.dxc.com
+DNS.5=dc1
+IP.1=192.168.0.110
